@@ -21,3 +21,15 @@ if __name__ == '__main__':
         print(arg)
     print('/n python路径为:',path) # 因为已经导入path成员，所以此处引用时不需要加sys.path
 
+
+
+    x = b"hello"
+    y = x[1:3]  # 切片操作，得到 b"el"
+    z = x + b"world"  # 拼接操作，得到 b"helloworld"
+    print(y)
+    print(z)
+
+
+    for i in range(5):
+        print(i+1)
+
